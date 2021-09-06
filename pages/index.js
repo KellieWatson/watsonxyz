@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
 
         <header className="flex justify-end w-full h-24 border-b px-5 py-6">
+
             <div className="px-2">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded">Login</button>
             </div>
