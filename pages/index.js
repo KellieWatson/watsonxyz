@@ -5,13 +5,13 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>WatsonXYZ</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Wxyz-larger.jpg" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
-          <a className="text-blue-900" href="https://watsonXYZ.com">
+          <a className="text-blue-900" href="https://watsonxyz-kelliewatson.vercel.app/">
             WatsonXYZ!
           </a>
         </h1>
@@ -21,15 +21,14 @@ export default function Home() {
 
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      <footer className="flex items-center justify-center w-full h-24 border-t text-blue-800">
         <a
           className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://watsonxyz-kelliewatson.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          Developed by{' WatsonXYZ'}
         </a>
       </footer>
     </div>
