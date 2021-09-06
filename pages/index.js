@@ -10,10 +10,12 @@ export default function Home() {
       </Head>
 
         <header className="grid grid-cols-2  w-full h-24 border-b px-5 py-6">
-            <div className="flex justify-start">
-            <div className="px-2">Dashboard</div>
-            <div className="px-2">Finance</div>
-            <div className="px-2">Technology</div>
+            <div className="flex justify-start text-xl font-semibold">
+            <div className="px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent bg-clip-text">WatsonXYZ</div>
+            <div className="hidden px-2 py-2">Dashboard</div>
+            <div className="hidden px-2 py-2">Finance</div>
+            <div className="hidden px-2 py-2">Technology</div>
+            <div className="px-2 py-2">About-Us</div>
             </div>
             <div className="flex justify-end">
             <div className="px-2">
