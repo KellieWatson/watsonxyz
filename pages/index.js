@@ -9,13 +9,19 @@ export default function Home() {
         <link rel="icon" href="/Wxyz-larger.jpg" />
       </Head>
 
-        <header className="flex justify-end w-full h-24 border-b px-5 py-6">
-
+        <header className="grid grid-cols-2  w-full h-24 border-b px-5 py-6">
+            <div className="flex justify-start">
+            <div className="px-2">Dashboard</div>
+            <div className="px-2">Finance</div>
+            <div className="px-2">Technology</div>
+            </div>
+            <div className="flex justify-end">
             <div className="px-2">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded">Login</button>
             </div>
             <div>
             <button className="hidden bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Register</button>
+            </div>
             </div>
         </header>
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
