@@ -33,6 +33,7 @@ export default function Home() {
               { `${companyName}!`}
           </a>
         </h1>
+          <pre>Learn to Produce  &rarr;  Produce to Learn</pre>
 
 
 
