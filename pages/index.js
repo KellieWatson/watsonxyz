@@ -11,7 +11,7 @@ export default function Home() {
 
         <header className="grid grid-cols-2  w-full h-24 border-b px-5 py-6">
             <div className="flex justify-start text-xl font-semibold">
-            <div className="px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent bg-clip-text hover:from-pink-500 via-red-500 to-purple-600">WatsonXYZ</div>
+            <div className="px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent bg-clip-text hover:from-pink-500 hover:via-red-500 hover:to-purple-600">WatsonXYZ</div>
                 <div className="px-2 py-2">Dashboard</div>
             <div className=" px-2 py-2">Finance</div>
             <div className=" px-2 py-2">Technology</div>
@@ -29,7 +29,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
-          <a className="bg-clip-text bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent hover:from-pink-500 via-red-500 to-purple-600" href="https://watsonxyz-kelliewatson.vercel.app/">
+          <a className="bg-clip-text bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent hover:from-pink-500 hover:via-red-500 hover:to-purple-600" href="https://watsonxyz-kelliewatson.vercel.app/">
               { `${companyName}!`}
           </a>
         </h1>
