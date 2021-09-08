@@ -9,11 +9,12 @@ function NavBar(props) {
     return (
         <nav className="flex items-center flex-wrap border-b p-6">
             <Link href="/">
-                <a className="px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600
+                <a className="inline-flex items-center mr-4 px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600
                 text-transparent bg-clip-text hover:from-pink-500 hover:via-red-500 hover:to-purple-600">
-                    {companyName}</a>
+                   <span> {companyName}</span></a>
             </Link>
-            <div className="lg:hidden">
+
+            <div className="inline-flex ml-auto lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                  stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
