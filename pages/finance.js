@@ -1,9 +1,8 @@
 import NavBar from "./NavBar";
 
-const finance =()=>{
+const finance =(props)=>{
     return(
         <div>
-        <NavBar/>
         <body className="">
         <h1 className="Company-logo">WatsonXYZ </h1>
         <div>
