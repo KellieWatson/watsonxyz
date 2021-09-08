@@ -1,6 +1,6 @@
 
-const AboutUs =()=>{
-    return(<main>
+const about =()=>{
+    return(
         <body className="">
         <h1 className="Company-logo">WatsonXYZ </h1>
         <div>
@@ -15,6 +15,6 @@ const AboutUs =()=>{
             </p>
         </div>
         </body>
-    </main>);
+    );
 }
-export default AboutUs;
+export default about;
