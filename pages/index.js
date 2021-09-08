@@ -10,8 +10,7 @@ export default function Home() {
         <title>{ `${companyName}`}</title>
         <link rel="icon" href="/Wxyz-larger.jpg" />
       </Head>
-
-        <NavBar/>
+        <NavBar companyName={companyName}/>
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
@@ -21,7 +20,6 @@ export default function Home() {
         </h1>
           <pre>Learn to Produce  &rarr;  Produce to Learn</pre>
       </main>
-
     <Footer companyName={companyName}/>
     </div>
   )

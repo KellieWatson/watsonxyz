@@ -1,11 +1,14 @@
 import Link from 'next/link'
+import Head from "next/head";
 
-function NavBar() {
-    return (<header className="grid grid-cols-2  w-full h-24 border-b px-5 py-6">
+function NavBar(props) {
+    const companyName = props.companyName;
+    return (
+    <header className="grid grid-cols-2  w-full h-24 border-b px-5 py-6">
         <div className="flex justify-start text-xl font-semibold">
             <div
                 className="px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent bg-clip-text hover:from-pink-500 hover:via-red-500 hover:to-purple-600">
-                <Link href="/"><a>WatsonXYZ</a></Link>
+                <Link href="/"><a>{companyName}</a></Link>
             </div>
             <div className="px-2 py-2">
                 <Link href="/dashboard"><a>Dashboard</a>
