@@ -1,8 +1,8 @@
 
 const about =()=>{
     return(
-        <div className="">
-        <h1 className="Company-logo">WatsonXYZ </h1>
+        <div className="flex flex-col items-center justify-center min-h-screen py-2">
+            <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <div>
             <h2>Subject: </h2>
             <p> Enhancing individuals' efficiency and financial prowess.
@@ -14,6 +14,7 @@ const about =()=>{
             <p> To leverage advancing technologies to provide simple, actionable financial and organizational guidance.
             </p>
         </div>
+            </main>
         </div>
     );
 }
