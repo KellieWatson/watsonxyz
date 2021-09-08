@@ -1,8 +1,11 @@
 import Link from 'next/link'
-import Head from "next/head";
+
 
 function NavBar(props) {
     const companyName = props.companyName;
+    const login = "Login";
+    const register = "Register"
+    const onClickHandler = () => {console.log("Button pushed")};
     return (
     <header className="grid grid-cols-2  w-full h-24 border-b px-5 py-6">
         <div className="flex justify-start text-xl font-semibold">
@@ -21,12 +24,16 @@ function NavBar(props) {
         </div>
         <div className="flex justify-end">
             <div className="px-2">
+                <Link href="/login" passHref>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded ">Login</button>
+                </Link>
             </div>
             <div>
+                <Link href="/register" passHref>
                 <button
                     className="hidden bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Register
                 </button>
+                </Link>
             </div>
         </div>
     </header>);

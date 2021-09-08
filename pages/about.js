@@ -1,7 +1,7 @@
 
 const about =()=>{
     return(
-        <body className="">
+        <div className="">
         <h1 className="Company-logo">WatsonXYZ </h1>
         <div>
             <h2>Subject: </h2>
@@ -14,7 +14,7 @@ const about =()=>{
             <p> To leverage advancing technologies to provide simple, actionable financial and organizational guidance.
             </p>
         </div>
-        </body>
+        </div>
     );
 }
 export default about;
