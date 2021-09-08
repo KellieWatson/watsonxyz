@@ -7,7 +7,22 @@ function NavBar(props) {
     const register = "Register"
     const onClickHandler = () => {console.log("Button pushed")};
     return (
-    <header className="grid grid-cols-2  w-full h-24 border-b px-5 py-6">
+        <nav className="flex items-center flex-wrap border-b p-6">
+            <Link href="/">
+                <a className="px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600
+                text-transparent bg-clip-text hover:from-pink-500 hover:via-red-500 hover:to-purple-600">
+                    {companyName}</a>
+            </Link>
+            <div className="lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                 stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+            </div>
+
+
+        </nav>
+   /* <header className="grid grid-cols-2  w-full h-24 border-b px-5 py-6">
         <div className="flex justify-start text-xl font-semibold">
             <div
                 className="px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent bg-clip-text hover:from-pink-500 hover:via-red-500 hover:to-purple-600">
@@ -36,7 +51,9 @@ function NavBar(props) {
                 </Link>
             </div>
         </div>
-    </header>);
+    </header>*/
+
+    );
 }
 
 export default NavBar;
