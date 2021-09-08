@@ -20,7 +20,30 @@ function NavBar(props) {
                 </svg>
                 </button>
             </div>
-
+            <div className="hidden w-full lg:inline-flex lg:flex-grow lg:w-auto">
+                <div className="px-2 py-2 text-xl font-semibold">
+                    <Link href="/dashboard"><a>Dashboard</a>
+                    </Link></div>
+                <div className=" px-2 py-2 text-xl font-semibold">
+                    <Link href="/finance"><a>Finance</a></Link></div>
+                <div className=" px-2 py-2 text-xl font-semibold"><Link href="/technology"><a>Technology</a></Link>
+                </div>
+                <div className="px-2 py-2 text-xl font-semibold"><Link href="/about"><a>About</a></Link></div>
+                <div className="ml-auto flex justify-end">
+                    <div className="px-2">
+                        <Link href="/login" passHref>
+                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded ">Login</button>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link href="/register" passHref>
+                            <button
+                                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Register
+                            </button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
 
         </nav>
    /* <header className="grid grid-cols-2  w-full h-24 border-b px-5 py-6">
