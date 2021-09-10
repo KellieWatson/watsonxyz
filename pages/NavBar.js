@@ -9,9 +9,9 @@ function NavBar({companyName}) {
     return (
         <nav className="flex items-center flex-wrap border-b p-6">
             <Link href="/">
-                <a onClick={menuClicked} className="inline-flex items-center mr-4 px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600
-                text-transparent bg-clip-text hover:from-pink-500 hover:via-red-500 hover:to-purple-600">
-                   <span> {companyName}</span></a>
+                <a onClick={menuClicked} >
+                   <span className="inline-flex items-center mr-4 px-4 text-3xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-600
+                text-transparent bg-clip-text hover:from-pink-500 hover:via-red-500 hover:to-purple-600"> {companyName}</span></a>
             </Link>
             <div className="inline-flex ml-auto lg:hidden">
                 <button onClick={menuClicked} className="hover:outline-black">
