@@ -7,7 +7,7 @@ export default function Layout({children}){
     return(<>
         <Head>
             <title>{ `${companyName}`}</title>
-            <link rel="icon" href="../Wxyz-larger.jpg"/>
+            <link rel="icon" href="../Wxyz-gradient.png"/>
         </Head>
         <NavBar companyName={companyName}/>
         <main>{children}</main>
