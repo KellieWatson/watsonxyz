@@ -10,7 +10,7 @@ function NavBar({companyName}) {
         <nav className="flex items-center flex-wrap border-b p-6">
             <Link href="/">
                 <a onClick={menuClicked}>
-                   <span className="bg-clip-text bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent hover:from-pink-500 hover:via-red-500 hover:to-purple-600">{companyName}</span></a>
+                   <span className="font-bold text-xl bg-clip-text bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent hover:from-pink-500 hover:via-red-500 hover:to-purple-600 lg:text-4xl lg:font-bold lg:mr-8 lg:ml-4">{companyName}</span></a>
             </Link>
             <div className="inline-flex ml-auto lg:hidden">
                 <button onClick={menuClicked} className="hover:outline-black">
