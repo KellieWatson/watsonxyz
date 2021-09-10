@@ -1,14 +1,8 @@
 import Head from "next/head";
 
 const About =()=>{
-    const companyName = 'WatsonXYZ'
-
     return(
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
-            <Head>
-                <title>{ `${companyName}`}</title>
-                <link rel="icon" href="/Wxyz-gradient.PNG"/>
-            </Head>
             <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <div>
             <h2>Subject: </h2>
