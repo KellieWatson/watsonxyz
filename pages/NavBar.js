@@ -22,25 +22,25 @@ function NavBar({companyName}) {
             </div>
             <div className={`${menuView ? '':'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
                 <div className="w-full lg:inline-flex lg:flex-grow lg:w-auto">
-                    <div className="px-2 py-2 text-xl font-semibold">
+                    <div className="px-1 py-1 text-sm lg:px-2 lg:py-2 lg:mt-2 lg:text-xl font-semibold">
                         <Link href="/dashboard"><a onClick={linkCLicked}>Dashboard</a>
                         </Link></div>
-                    <div className=" px-2 py-2 text-xl font-semibold">
+                    <div className="px-1 py-1 text-sm lg:px-2 lg:py-2 lg:mt-2 lg:text-xl font-semibold">
                         <Link href="/finance"><a onClick={linkCLicked}>Finance</a></Link></div>
-                    <div className=" px-2 py-2 text-xl font-semibold"><Link href="/technology"><a onClick={linkCLicked}>Technology</a></Link>
+                    <div className="px-1 py-1 text-sm lg:px-2 lg:py-2 lg:mt-2 lg:text-xl font-semibold"><Link href="/technology"><a onClick={linkCLicked}>Technology</a></Link>
                     </div>
-                    <div className="px-2 py-2 text-xl font-semibold"><Link href="/about"><a onClick={linkCLicked}>About</a></Link></div>
-                    <div className="ml-auto flex justify-end">
+                    <div className="px-1 py-1 mb-3 text-sm lg:px-2 lg:py-2 lg:mt-2 lg:text-xl font-semibold"><Link href="/about"><a onClick={linkCLicked}>About</a></Link></div>
+                    <div className="lg:ml-auto flex lg:justify-end">
                         <div className="px-2">
                             <Link href="/login" passHref>
-                                <button onClick={linkCLicked} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded ">Login</button>
+                                <button onClick={linkCLicked} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 lg:px-8 lg:mt-2 rounded ">Login</button>
                             </Link>
                         </div>
-                        <div>
+                        <div className="">
                             <Link href="/register" passHref>
                                 <button
                                     onClick={linkCLicked}
-                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Register
+                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 lg:mt-2 rounded">Register
                                 </button>
                             </Link>
                         </div>
