@@ -1,5 +1,5 @@
 
-const dashboard =()=>{
+const Dashboard =()=>{
     const pageName="Dashboard";
     return(
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -15,4 +15,4 @@ const dashboard =()=>{
         </div>
     );
 }
-export default dashboard;
+export default Dashboard;

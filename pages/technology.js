@@ -1,5 +1,5 @@
 
-const technology =()=>{
+const Technology =()=>{
     const pageName="Technology";
     return(
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -15,4 +15,4 @@ const technology =()=>{
         </div>
     );
 }
-export default technology;
+export default Technology;

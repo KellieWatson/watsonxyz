@@ -1,4 +1,4 @@
-const login =(props)=>{
+const Login =(props)=>{
     const pageName="Login";
     return(
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -14,4 +14,4 @@ const login =(props)=>{
         </div>
     );
 }
-export default login;
+export default Login;

@@ -1,4 +1,4 @@
-const register =(props)=>{
+const Register =(props)=>{
     const pageName="Registration";
     return(
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -13,4 +13,4 @@ const register =(props)=>{
             </main>
         </div>
     );}
-export default register;
+export default Register;

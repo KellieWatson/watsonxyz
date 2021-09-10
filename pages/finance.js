@@ -1,4 +1,4 @@
-const finance =(props)=>{
+const Finance =(props)=>{
     const pageName="Finance";
     return(
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -14,4 +14,4 @@ const finance =(props)=>{
         </div>
     );
 }
-export default finance;
+export default Finance;
