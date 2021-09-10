@@ -11,7 +11,7 @@ function NavBar({companyName}) {
         <nav className="flex items-center flex-wrap border-b p-4">
             <Link href="/">
                 <a onClick={linkCLicked}>
-                   <span className="font-bold text-xl bg-clip-text bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent hover:from-pink-500 hover:via-red-500 hover:to-purple-600 lg:text-4xl lg:font-bold lg:mr-8 lg:ml-4">{companyName}</span></a>
+                   <span className="font-bold text-xl bg-clip-text bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent hover:from-pink-500 hover:via-red-500 hover:to-purple-600 lg:text-5xl lg:font-bold lg:mr-6 lg:ml-4">{companyName}</span></a>
             </Link>
             <div className="inline-flex ml-auto lg:hidden">
                 <button onClick={menuClicked} className="hover:outline-black">
@@ -22,25 +22,25 @@ function NavBar({companyName}) {
             </div>
             <div className={`${menuView ? '':'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
                 <div className="w-full lg:inline-flex lg:flex-grow lg:w-auto">
-                    <div className="px-1 py-1 text-sm lg:px-2 lg:py-2 lg:mt-2 lg:text-xl font-semibold">
+                    <div className="px-1 py-1 text-sm lg:px-2 lg:py-2 lg:mt-6 lg:text-xl font-semibold">
                         <Link href="/dashboard"><a onClick={linkCLicked}>Dashboard</a>
                         </Link></div>
-                    <div className="px-1 py-1 text-sm lg:px-2 lg:py-2 lg:mt-2 lg:text-xl font-semibold">
+                    <div className="px-1 py-1 text-sm lg:px-2 lg:py-2 lg:mt-6 lg:text-xl font-semibold">
                         <Link href="/finance"><a onClick={linkCLicked}>Finance</a></Link></div>
-                    <div className="px-1 py-1 text-sm lg:px-2 lg:py-2 lg:mt-2 lg:text-xl font-semibold"><Link href="/technology"><a onClick={linkCLicked}>Technology</a></Link>
+                    <div className="px-1 py-1 text-sm lg:px-2 lg:py-2 lg:mt-6 lg:text-xl font-semibold"><Link href="/technology"><a onClick={linkCLicked}>Technology</a></Link>
                     </div>
-                    <div className="px-1 py-1 mb-3 text-sm lg:px-2 lg:py-2 lg:mt-2 lg:text-xl font-semibold"><Link href="/about"><a onClick={linkCLicked}>About</a></Link></div>
+                    <div className="px-1 py-1 mb-3 text-sm lg:px-2 lg:py-2 lg:mt-6 lg:text-xl font-semibold"><Link href="/about"><a onClick={linkCLicked}>About</a></Link></div>
                     <div className="lg:ml-auto flex lg:justify-end mr-3">
                         <div className="px-2">
                             <Link href="/login" passHref>
-                                <button onClick={linkCLicked} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 lg:px-8 lg:mt-3 rounded ">Login</button>
+                                <button onClick={linkCLicked} className="shadow bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 lg:px-7 lg:mt-6 lg:mr-4 rounded ">Login</button>
                             </Link>
                         </div>
                         <div className="">
                             <Link href="/register" passHref>
                                 <button
                                     onClick={linkCLicked}
-                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 lg:mt-3 rounded">Register
+                                    className="shadow bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 lg:mt-6 rounded">Register
                                 </button>
                             </Link>
                         </div>
