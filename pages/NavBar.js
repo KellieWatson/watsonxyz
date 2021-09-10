@@ -6,10 +6,11 @@ function NavBar({companyName}) {
     const login = "Login";
     const register = "Register"
     const menuClicked = () => {setMenuView(!menuView); console.log(`Button Pressed: ${menuView}`);};
+    const linkCLicked = () =>{(menuView)? setMenuView(!menuView) : setMenuView(menuView)};
     return (
         <nav className="flex items-center flex-wrap border-b p-6">
             <Link href="/">
-                <a onClick={menuClicked}>
+                <a onClick={linkCLicked}>
                    <span className="font-bold text-xl bg-clip-text bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-transparent hover:from-pink-500 hover:via-red-500 hover:to-purple-600 lg:text-4xl lg:font-bold lg:mr-8 lg:ml-4">{companyName}</span></a>
             </Link>
             <div className="inline-flex ml-auto lg:hidden">
@@ -22,23 +23,23 @@ function NavBar({companyName}) {
             <div className={`${menuView ? '':'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
                 <div className="w-full lg:inline-flex lg:flex-grow lg:w-auto">
                     <div className="px-2 py-2 text-xl font-semibold">
-                        <Link href="/dashboard"><a onClick={menuClicked}>Dashboard</a>
+                        <Link href="/dashboard"><a onClick={linkCLicked}>Dashboard</a>
                         </Link></div>
                     <div className=" px-2 py-2 text-xl font-semibold">
-                        <Link href="/finance"><a onClick={menuClicked}>Finance</a></Link></div>
-                    <div className=" px-2 py-2 text-xl font-semibold"><Link href="/technology"><a onClick={menuClicked}>Technology</a></Link>
+                        <Link href="/finance"><a onClick={linkCLicked}>Finance</a></Link></div>
+                    <div className=" px-2 py-2 text-xl font-semibold"><Link href="/technology"><a onClick={linkCLicked}>Technology</a></Link>
                     </div>
-                    <div className="px-2 py-2 text-xl font-semibold"><Link href="/about"><a onClick={menuClicked}>About</a></Link></div>
+                    <div className="px-2 py-2 text-xl font-semibold"><Link href="/about"><a onClick={linkCLicked}>About</a></Link></div>
                     <div className="ml-auto flex justify-end">
                         <div className="px-2">
                             <Link href="/login" passHref>
-                                <button onClick={menuClicked} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded ">Login</button>
+                                <button onClick={linkCLicked} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded ">Login</button>
                             </Link>
                         </div>
                         <div>
                             <Link href="/register" passHref>
                                 <button
-                                    onClick={menuClicked}
+                                    onClick={linkCLicked}
                                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Register
                                 </button>
                             </Link>
