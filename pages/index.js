@@ -6,10 +6,6 @@ export default function Home() {
     const companyName = 'WatsonXYZ'
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Head>
-        <title>{ `${companyName}`}</title>
-        <link rel="icon" href="/Wxyz-larger.jpg" />
-      </Head>
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
