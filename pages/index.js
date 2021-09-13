@@ -5,7 +5,7 @@ import Footer from "./Footer";
 export default function Home() {
     const companyName = 'WatsonXYZ'
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen">
         <Head>
             <title>{ `${companyName}`}</title>
             <link rel="icon" href="/Wxyz-gradient.PNG"/>
