@@ -8,12 +8,13 @@ const About =()=>{
             <h2 className="font-bold text-3xl m-3">Subject: </h2>
             <p className="font-semibold text-xl"> Enhancing individuals' efficiency and financial prowess.
             </p>
-            <h2 className="font-bold text-3xl m-3">Company Purpose:</h2>
-            <p className="font-semibold text-xl"> To help each member of our diverse communities to embrace and highlight life’s opportunities while avoiding unnecessary financial hazards.
-            </p>
             <h2 className="font-bold text-3xl m-3">Mission Statement:</h2>
             <p className="font-semibold text-xl"> To leverage advancing technologies to provide simple, actionable financial and organizational guidance.
             </p>
+            <h2 className="font-bold text-3xl m-3">Company Purpose:</h2>
+            <p className="font-semibold text-xl"> To help each member of our diverse communities to embrace and highlight life’s opportunities while avoiding unnecessary financial hazards.
+            </p>
+
         </div>
             </main>
         </div>
