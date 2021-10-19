@@ -3,7 +3,7 @@ function Footer(props) {
     return(<footer className="flex items-center justify-center w-full h-24 border-t">
         <a
             className="flex items-center"
-            href="https://watsonxyz-kelliewatson.vercel.app/"
+            href="https://www.watsonxyz.com/"
             target="_blank"
             rel="noopener noreferrer"
         >
